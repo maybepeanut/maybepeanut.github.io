@@ -1,0 +1,55 @@
+header.hero {
+    padding: 60px 0;
+    color: white;
+    background: #D0B078;
+}
+
+header.hero h1 {
+    margin: 0;
+}
+
+.blurb.hero {
+    padding: calc(20px + 1vw) 0 0;
+    font-size: calc(20px + 1vw);
+    line-height: 1.75em;
+}
+
+.blurb.hero h2 {
+    margin: 0 0 0.5em
+}
+
+main.hero {
+    border-bottom: 5vh solid #D0B078;  
+    background-image: url('/assets/peanut.png');
+    background-size: 150vw;
+    background-repeat: no-repeat;
+    background-position-y: -10vw;
+}
+
+main.hero .contents {
+    padding-top: 15vh;
+}
+
+main.hero .container {
+    height: 80%;
+    padding: 1em 1em;
+    font-size: calc(20px + 1vw);
+    line-height: 1.25em;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+main.hero h3 {
+    margin: 0 0 1em;
+}
+
+main.hero blockquote {
+    margin: 0;
+    padding: 1em;
+    color: white;
+    background: #D0B078;
+}
+
+footer.hero {
+    padding: 10vh 0 3vh;
+    border-top: 1vh solid #D0B078;    
+}
